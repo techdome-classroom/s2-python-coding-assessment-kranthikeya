@@ -4,6 +4,9 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
+        if not s:  # If the string is empty, return 0
+            return 0
+        
         roman_map = {
             'I': 1,
             'V': 5,
